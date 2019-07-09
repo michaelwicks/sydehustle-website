@@ -71,6 +71,7 @@
     @import url('fonts/Gotham-Light.css');
     @import url('fonts/ProximaNova-Light.css');
     @import url('fonts/ProximaNova-Regular.css');
+
   </style>
 </head>
 
@@ -83,7 +84,11 @@
         <nav role="navigation">
           <a href="#"><img alt="SydeHustle Logo" id="site-logo" width="180px" src="images/SydeHustle_Logo_White.png"></a>
           <!--                    <a class="pull-right" href="https://app.e2ma.net/app2/login/" id="log_in"></a>-->
-          <button class="pull-right button-txt button-style login-btn-space" alt="Login" style="margin-right: 2%; margin-top: 2%"><a class="login-btn" href="http://app.sydehustle.co/#/">LOGIN</a></button>
+          
+          <!--          <button class="pull-right button-txt button-style login-btn-space" alt="Login" style="margin-right: 2%; margin-top: 2%"><a class="login-btn" href="http://app.sydehustle.co/#/">LOGIN</a></button>-->
+
+          <button class="pull-right button-txt button-style login-btn-space" alt="Login" style="margin-right: 2%; margin-top: 2%"><a class="login-btn" href="#talk">LOGIN</a></button>
+
         </nav>
       </div>
     </header>
@@ -137,7 +142,6 @@
         <!-- Begin Mailchimp Signup Form -->
         <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
         <style type="text/css">
-
           #mc_embed_signup {
             background: transparent;
             clear: left;
@@ -155,21 +159,27 @@
 
 
           .mdl-textfield.is-focused .mdl-textfield__label {
-            color: white; 
-/*            changes color of floating label */
+            color: white;
+            /*            changes color of floating label */
+          }
+
+          .mdl-textfield.is-focused .mdl-textfield__label {
+            color: white;
+            /*            changes color of floating label */
           }
 
           .mdl-textfield__label:after {
             background-color: white;
-/*            changes color of underline below input area */
+            /*            changes color of underline below input area */
           }
 
-          
-          
-          
+
+
+
 
           /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+
         </style>
         <div id="mc_embed_signup" style="margin: 0;">
           <form action="https://sydehustle.us3.list-manage.com/subscribe/post?u=0788cb29f1caa279d833e0827&amp;id=5337497d90" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -197,7 +207,8 @@
               </div>
               <br>
               <div class="clear">
-                <button class="sub-btn" onclick="location.href = 'http://app.sydehustle.co/#/';">
+                <!--                <button class="sub-btn" onclick="location.href = 'http://app.sydehustle.co/#/';">-->
+                <button class="sub-btn">
                   <h1 class="btn-txt-color">Subscribe</h1>
                 </button>
 
@@ -224,6 +235,7 @@
             ftypes[5] = 'birthday';
           }(jQuery));
           var $mcj = jQuery.noConflict(true);
+
         </script>
         <!--End mc_embed_signup-->
       </ul>
