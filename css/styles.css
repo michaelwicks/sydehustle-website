@@ -270,7 +270,7 @@ a#log_in:hover {
 
 @media all and (max-width: 46.24em) {
   .nav_primary {
-    display: none;
+/*    display: none;*/
   }
 
   .logo_mob {
